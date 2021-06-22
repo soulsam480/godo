@@ -14,5 +14,5 @@ func main() {
 	r.GET("/", controllers.GetAllTodo)
 	r.POST("/", controllers.CerateTodo)
 
-	r.Run()
+	r.Run(":8000")
 }
